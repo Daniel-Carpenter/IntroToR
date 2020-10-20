@@ -2,7 +2,7 @@
 
 ## Getting help in R
 
-### Pacakages
+### Packages
 
 ```R
 ?tidyverse
@@ -47,7 +47,13 @@ apropos("lm")
 search()
 ```
 
-### Libraries used in this class frequently
+### Demo Package
+```R
+window()
+demo(package)
+```
+
+### Libraries included in `base`
 
 |Library|Description|
 |-|-|
@@ -59,4 +65,7 @@ search()
 |`spatial`  | functions for kriging and point pattern analysis|
 |`survival` | survival analysis, including penalised likelihood|
 
-
+### Clear workspace
+```R
+rm(list = ls())
+```
