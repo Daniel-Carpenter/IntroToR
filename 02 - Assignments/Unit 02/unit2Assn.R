@@ -5,7 +5,7 @@ library(s20x)
   weights <- apples.df$Weight
   sortedWeights <- sort(weights)
   
-  # COunt of Weights less than 1000
+  # COunt of Weights less than 1000 and Print
   sum(weights < 1000)
 
 # Q2 - Make matrix of 26 cols and 4 rows from weights data
@@ -31,6 +31,7 @@ library(s20x)
     return(u * t + 1/2 * a * t^2)
   }
   
+  # Print
   projectile(10, 4, 3)
   
   
