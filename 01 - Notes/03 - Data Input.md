@@ -2,13 +2,10 @@
 
 ## Reading Data
 
-<<<<<<< HEAD
 ### Double '\\' When Reading in Data
 
 * Use '\\' when reading in data or else it will look for things like '\n'
 
-=======
->>>>>>> 45d7340f6ead5b68f93d36133596b5a8a25bce26
 ### Reading Data from Console
 
 ```r
@@ -26,6 +23,24 @@ setwd("c:\\temp\\")
 
 # Store data from working directory
 data <- read.table(yield.txt",header=T)
+```
+
+#### Comma
+
+```r
+read.csv("data.txt)
+```
+
+#### Semi-Colon
+
+```r
+read.csv2("data.txt)
+```
+
+#### Tab
+
+```r
+read.delim2("data.txt)
 ```
 
 ### Read Data and Skip Headers
