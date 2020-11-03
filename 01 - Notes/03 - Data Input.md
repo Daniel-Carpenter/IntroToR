@@ -2,6 +2,10 @@
 
 ## Reading Data
 
+### Double '\\' When Reading in Data
+
+* Use '\\' when reading in data or else it will look for things like '\n'
+
 ### Reading Data from Console
 
 ```r
