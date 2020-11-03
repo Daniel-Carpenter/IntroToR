@@ -2,10 +2,13 @@
 
 ## Reading Data
 
+<<<<<<< HEAD
 ### Double '\\' When Reading in Data
 
 * Use '\\' when reading in data or else it will look for things like '\n'
 
+=======
+>>>>>>> 45d7340f6ead5b68f93d36133596b5a8a25bce26
 ### Reading Data from Console
 
 ```r
