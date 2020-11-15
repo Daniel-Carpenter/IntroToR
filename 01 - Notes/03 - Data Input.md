@@ -53,7 +53,7 @@ NUM_ROWS_TO_SKIP = 5
 scan("t:\\data\\worms.txt", skip = NUM_ROWS_TO_SKIP)
 ```
 
-### Scan based on Delimiter
+### `scan()` based on Delimiter
 
 ```txt
 // Original Data:
