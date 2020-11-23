@@ -106,14 +106,16 @@ arrows()
 polygon()
 ```
 
-> Input
+#### `abline()` and best fit regression line
 
 ```r
+# y and x vars
+  x <- mtcars$hp
+  y <- mtcars$mpg
+  
+# Plot output  
+  plot(y ~ x)
 
-```
-
-> Output
-
-```txt
-
+# Best fit regression line
+  abline(lm(y ~ x))
 ```
