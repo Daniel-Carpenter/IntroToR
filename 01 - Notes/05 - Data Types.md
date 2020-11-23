@@ -9,6 +9,25 @@
 |Interval   |Space between twp vars |Can compute mean, median, mode, sd, etc.    |FALSE|time or temp   |
 |Ratio      |Order and exact values |Mode, median, mean, sd, etc.|FALSE|Height, weight, duration   |
 
+### `Factor`s
+
+* Factor means categorical variable
+
+### Get Data Types in Data Frame
+
+> Input
+
+```r
+sapply(mtcars, class)
+```
+
+> Output
+
+```txt
+      mpg       cyl      disp        hp      drat        wt      qsec
+"numeric" "numeric" "numeric" "numeric" "numeric" "numeric" "numeric"
+```
+
 ## Data Tables
 
 > Input
@@ -16,6 +35,8 @@
 ```r
 # Create frequency table of rivers
 table(mtcars$gear)
+
+# Can also use colSums(tbl) to get column sums of a table, or rowSums
 ```
 
 > Output
@@ -45,7 +66,7 @@ barplot(tab)
 with(mtcars, boxplot(mpg ~ gear))
 # OR
 tab2 = with(mtcars, table(mpg, gear))
-barplot(tab2, beside = TRUE)
+barplot(tab2, beside = TRUE, col = rainbow(4))
 
 # auto generate best plot
 plot(mpg ~ gear,
@@ -53,6 +74,36 @@ plot(mpg ~ gear,
      main = "Gears effect on Miles per Gallon",
      xlab = "Gear",
      ylab = "Miles per Gallon")
+
+# Scatter plot
+with(mtcars, 
+     plot(mpg ~ hp,
+          cex = wt, # size
+          col = cyl # Color
+          pch = 22  # shape
+          )
+     )
+```
+
+### Subset plot
+
+```r
+# view cars wit hp over 50
+plot(data = subset(mtcars,
+                   hp > 50),
+     mpg ~ hp)
+```
+
+### Plot Additions
+
+```r
+text()
+mtext()
+points()
+axis()
+lines()
+arrows()
+polygon()
 ```
 
 > Input
