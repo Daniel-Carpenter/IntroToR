@@ -20,13 +20,44 @@ library(tidyverse)
 
 # Introduction 
 
-## TODO
-\pagebreak
-  
+Within the `Project1.Rmd` file and this `Project1.pdf` file, the user can create a
+linear regression between two variables; also, the user can use a bootstrapping 
+function. Within the function `myslr`, the user estimates the relationship between 
+two variables, as well show the confidence in those estimates.
+
+Within the bootstrapping function, the user can use a limited sample to infer 
+information about a population.
+ 
   
 # Data
 
-## TODO
+Within the examples in this file, the `mtcars` dataset provides meaningful information
+when estimating linear regressions and bootstrapping. This dataset includes information
+from the 1974 \textit{Motor Trends} US magazine, and "comprises fuel consumptions,"
+as well as "10 apspects" of each of the thirty-two cars in the dataset. These "aspects"
+resemble the variables within the data.
+
+When considering the variables in the `mtcars` dataset, it is useful to understand the
+types of data, which help best determine how to analyze the data. Please see the variables,
+their descriptions, and their data types below.
+
+\begin{table}[]
+\begin{tabular}{lll}
+\multicolumn{1}{c}{\textbf{Variable Name}} & \multicolumn{1}{c}{\textbf{Variable Description}} & \multicolumn{1}{c}{\textbf{Data Type}} \\
+mpg                                        & Miles/(US) gallon                                 & Ratio                                  \\
+cyl                                        & Number of cylinders                               & Ratio                                  \\
+disp                                       & Displacement (cu.in.)                             & Ratio                                  \\
+hp                                         & Gross horsepower                                  & Ratio                                  \\
+drat                                       & Rear axle ratio                                   & Ratio                                  \\
+wt                                         & Weight (1000 lbs)                                 & Ratio                                  \\
+qsec                                       & 1/4 mile time                                     & Interval                               \\
+vs                                         & Engine (0 = V-shaped, 1 = straight)               & Nominal                                \\
+am                                         & Transmission (0 = automatic, 1 = manual)          & Nominal                                \\
+gear                                       & Number of forward gears                           & Ratio                                  \\
+carb                                       & Number of carburetors                             & Ratio                                 
+\end{tabular}
+\end{table}
+
 \pagebreak
 
 ```{r include = FALSE, echo=TRUE}

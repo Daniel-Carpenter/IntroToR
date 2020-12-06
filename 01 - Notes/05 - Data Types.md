@@ -7,7 +7,7 @@
 |Nominal (name) |  Characteristic; descriptive labels   |Mean|NA|Male or Female|
 |Oridinal (ordererd)|  Ordered variables |Use median or mode, **not mean**   |NA|Happy, Neautral, or Sad   |
 |Interval   |Space between twp vars |Can compute mean, median, mode, sd, etc.    |FALSE|time or temp   |
-|Ratio      |Order and exact values |Mode, median, mean, sd, etc.|FALSE|Height, weight, duration   |
+|Ratio      |Order and exact values |Mode, median, mean, sd, etc.|TRUE|Height, weight, duration   |
 
 ### `Factor`s
 

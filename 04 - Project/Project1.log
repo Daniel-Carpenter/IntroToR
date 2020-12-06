@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 15:34
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -612,72 +612,85 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-msb.c
 fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1
-
-{C:/Users/dbry1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+)
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-37.
+12.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 137.
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 141.
 
-Underfull \vbox (badness 2088) detected at line 215
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 136.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 137.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 137.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 137.
+[1
+
+{C:/Users/dbry1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 167.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 171.
+
+Underfull \vbox (badness 2088) detected at line 245
  []
 
-[3]
-<The Relationship between MPG and Weight of Vehicle.png, id=39, 578.16pt x 578.
+[2]
+<The Relationship between MPG and Weight of Vehicle.png, id=33, 578.16pt x 578.
 16pt>
 File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
  png)
 <use The Relationship between MPG and Weight of Vehicle.png>
 Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
-  used on input line 253.
+  used on input line 283.
 (pdftex.def)             Requested size: 500.48087pt x 500.48087pt.
-[4]
-<Normal Interval Check.png, id=47, 501.875pt x 301.125pt>
+[3]
+<Normal Interval Check.png, id=41, 501.875pt x 301.125pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
-Package pdftex.def Info: Normal Interval Check.png  used on input line 258.
+Package pdftex.def Info: Normal Interval Check.png  used on input line 288.
 (pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
-[5 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
-<Fitted vs. residuals Plot.png, id=54, 501.875pt x 301.125pt>
+[4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
+<Fitted vs. residuals Plot.png, id=48, 501.875pt x 301.125pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
-Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 263.
+Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 293.
 
 (pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
 
-Overfull \hbox (493.56343pt too wide) in paragraph at lines 267--267
+Overfull \hbox (493.56343pt too wide) in paragraph at lines 297--297
 [][]\T1/lmr/bx/n/14.4 Bootstrap ===============================================
 ========================== 
  []
 
-[6 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>] [7] (Projec
+[5 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>] [6] (Projec
 t1.aux) ) 
 Here is how much of TeX's memory you used:
- 13359 strings out of 480224
- 200412 string characters out of 2878167
- 532777 words of memory out of 3000000
- 29652 multiletter control sequences out of 15000+200000
- 567305 words of font info for 63 fonts, out of 3000000 for 9000
+ 13417 strings out of 480224
+ 201309 string characters out of 2878167
+ 532726 words of memory out of 3000000
+ 29689 multiletter control sequences out of 15000+200000
+ 587316 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,5n,77p,965b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,9n,77p,965b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
 m-ec.enc}<C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmr17.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmtk10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmtt10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Project1.pdf (7 pages, 297437 bytes).
+m/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/lm/lmr10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmr17.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmri10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmtk10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/dbry1/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on Project1.pdf (6 pages, 343083 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 8352 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
+ 12432 words of extra memory for PDF output out of 14400 (max. 10000000)
 
