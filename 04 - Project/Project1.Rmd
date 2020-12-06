@@ -1,5 +1,6 @@
 ---
 title: "Project 1"
+author: "Daniel Carpenter"
 date: "12/13/2020"
 geometry: "left = 2cm, right = 2cm, top = 2cm, bottom = 2cm"
 classoption: Portrait
@@ -172,7 +173,9 @@ carb                                       & Number of carburetors              
         summary(y.lm) 
       
       ## Confidence Interval at 95% (void)
-        ciReg(y.lm)
+        CI <- ciReg(y.lm)
+        CI
+        write.csv(CI, file = "Confidence Intervals.csv")
         
       ## Check assumptions and save .png
         png("Normal Interval Check.png", height = 300, width = 500)
@@ -193,12 +196,15 @@ carb                                       & Number of carburetors              
 
 ```{r include = TRUE, echo = TRUE}
   # Call Get Linear Estimation for y on x
-    myslr(data = mtcars,
-            mtcars$mpg,   "Miles per Gallon", 
-            mtcars$wt,    "Weight of Vehicle",
-            mtcars$disp,  "Displacement (cub. inches)", 
-            mtcars$cyl,   "Number of Cylinders",
-            "The Relationship between MPG and Weight of Vehicle")
+    y.lm <- myslr(data = mtcars,
+                  mtcars$mpg,   "Miles per Gallon", 
+                  mtcars$wt,    "Weight of Vehicle",
+                  mtcars$disp,  "Displacement (cub. inches)", 
+                  mtcars$cyl,   "Number of Cylinders",
+                  "The Relationship between MPG and Weight of Vehicle")
+
+  # Coefficient list
+    coefsList <- y.lm$coefficients
 
 ```
 

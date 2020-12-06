@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 15:54
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -636,7 +636,7 @@ LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 171.
 
-Underfull \vbox (badness 2088) detected at line 245
+Underfull \vbox (badness 2088) detected at line 247
  []
 
 [2]
@@ -646,23 +646,23 @@ File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
  png)
 <use The Relationship between MPG and Weight of Vehicle.png>
 Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
-  used on input line 283.
+  used on input line 282.
 (pdftex.def)             Requested size: 500.48087pt x 500.48087pt.
 [3]
 <Normal Interval Check.png, id=41, 501.875pt x 301.125pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
-Package pdftex.def Info: Normal Interval Check.png  used on input line 288.
+Package pdftex.def Info: Normal Interval Check.png  used on input line 287.
 (pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
 [4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
 <Fitted vs. residuals Plot.png, id=48, 501.875pt x 301.125pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
-Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 293.
+Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 292.
 
 (pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
 
-Overfull \hbox (493.56343pt too wide) in paragraph at lines 297--297
+Overfull \hbox (493.56343pt too wide) in paragraph at lines 296--296
 [][]\T1/lmr/bx/n/14.4 Bootstrap ===============================================
 ========================== 
  []
@@ -672,7 +672,7 @@ t1.aux) )
 Here is how much of TeX's memory you used:
  13417 strings out of 480224
  201309 string characters out of 2878167
- 532726 words of memory out of 3000000
+ 533726 words of memory out of 3000000
  29689 multiletter control sequences out of 15000+200000
  587316 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -688,7 +688,7 @@ ts/type1/public/lm/lmri10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/lm/lmtk10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/dbry1/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Project1.pdf (6 pages, 343083 bytes).
+Output written on Project1.pdf (6 pages, 342940 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)
