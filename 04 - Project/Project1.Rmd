@@ -12,8 +12,6 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-# Daniel Carpenter
-
 library(s20x)
 library(tidyverse)
 ```
@@ -32,13 +30,13 @@ information about a population.
   
 # Data
 
-Within the examples in this file, the `mtcars` dataset provides meaningful information
-when estimating linear regressions and bootstrapping. This dataset includes information
-from the 1974 \textit{Motor Trends} US magazine, and "comprises fuel consumptions,"
-as well as "10 apspects" of each of the thirty-two cars in the dataset. These "aspects"
+Within the examples in this file, the `mtcars` data set provides meaningful information
+when estimating linear regressions and bootstrapping. This data set includes information
+from the 1974 \textit{Motor Trends} US magazine, and "comprises fuel consumption,"
+as well as "10 aspects" of each of the thirty-two cars in the data set. These "aspects"
 resemble the variables within the data.
 
-When considering the variables in the `mtcars` dataset, it is useful to understand the
+When considering the variables in the `mtcars` data set, it is useful to understand the
 types of data, which help best determine how to analyze the data. Please see the variables,
 their descriptions, and their data types below.
 
@@ -94,7 +92,7 @@ carb                                       & Number of carburetors              
                                          colour  = "grey94",
                                          size    = .40),
       legend.text         = element_text(colour  = "grey15"),
-      legend.position     = "bottom",
+      legend.position     = "right",
       
       # Margin
       plot.margin         = margin(t = 15, 
@@ -107,8 +105,15 @@ carb                                       & Number of carburetors              
 
 # Theory Used
 
-## TODO
-  
+\begin{equation}
+Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
+\end{equation}
+
+`Y` Represents the dependent, or explained, variable.
+\begin{equation}\beta_{0}\end{equation} represents the estimated intercept.
+\begin{equation}\beta_{i}\end{equation} represents the slope of the estimated vector.
+\begin{equation}X_{i}\end{equation} represents the independent, or control, variable.
+\begin{equation}\epsilon_{i}\end{equation} represents some error term.
 
 # Application of SLR to the mtcars data set
 
@@ -160,7 +165,7 @@ carb                                       & Number of carburetors              
     # Save plot
       ggsave(filename  = paste0(titleVar, ".png"),
              plot      = plot,
-             height    = 8,
+             height    = 6,
              width     = 8)
      
       
@@ -170,7 +175,7 @@ carb                                       & Number of carburetors              
         y.lm <- lm(y ~ x)
         
       ## Linear Regression Output (void)
-        summary(y.lm) 
+        print(summary(y.lm)) 
       
       ## Confidence Interval at 95% (void)
         CI <- ciReg(y.lm)
@@ -178,7 +183,7 @@ carb                                       & Number of carburetors              
         write.csv(CI, file = "Confidence Intervals.csv")
         
       ## Check assumptions and save .png
-        png("Normal Interval Check.png", height = 300, width = 500)
+        png("Normal Interval Check.png", height = 200, width = 500)
         normcheck(y.lm) 
         dev.off()
         
@@ -192,7 +197,7 @@ carb                                       & Number of carburetors              
   }
 ```
 
-## Invoke`myslr` function using the `mtcars` dataset
+## Invoke`myslr` function using the `mtcars` data set
 
 ```{r include = TRUE, echo = TRUE}
   # Call Get Linear Estimation for y on x
@@ -217,7 +222,28 @@ carb                                       & Number of carburetors              
 
 ## Fitted vs. Residuals
 ![]("Fitted vs. residuals Plot.png")
-  
+
+\pagebreak
+
+## Interpretation of Model
+
+Within the model, it estimates that an increase of 1,000 pounds in weight of a 
+given car decreases the miles per gallon of the vehicle by 5.34. 
+Additionally, the model estimates that changes in weight  account for 75.28% 
+of the variation in the car's miles per gallon. 
+
+At a 95% level of confidence, the model estimates the lower bound to be a 6.49 
+decrease in miles per gallon when increasing the weight of a car by 1,000 pounds.
+Alternatively, the model estimates the upper bound to be a 4.20 decrease in miles 
+per gallon when increasing the weight of a car by 1,000 pounds.
+
+
+## Validity of the model
+
+Although the model estimates a narrow confidence interval with a relatively high 
+R-squared value, we may not assume that solely weight accounts for the full 
+76.28% variation in miles per gallon. This variable could easily be correlated 
+with another relevant variable, thus confounding the simple linear regression.
   
   
     
@@ -227,8 +253,8 @@ carb                                       & Number of carburetors              
 
 ## Bootstrap Plots ------------------------------------------------------------------
 
-## Commandline ----------------------------------------------------------------------
+## Command line ----------------------------------------------------------------------
 
 ## File -----------------------------------------------------------------------------
 
-## Invoke function on mtcars dataset ------------------------------------------------
+## Invoke function on mtcars data set ------------------------------------------------

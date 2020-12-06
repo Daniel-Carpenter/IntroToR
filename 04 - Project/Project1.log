@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 17:09
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -460,32 +460,32 @@ LaTeX Warning: Unused global option(s):
 (Project1.aux)
 \openout1 = `Project1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Info: Redefining \microtypecontext on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Info: Redefining \microtypecontext on input line 107.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 106.
+LaTeX Info: Redefining \showhyphens on input line 107.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -516,7 +516,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring OFF on input line 106.
+Package hyperref Info: Link coloring OFF on input line 107.
 
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -532,9 +532,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -570,32 +570,32 @@ LaTeX Info: Redefining \nameref on input line 106.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-08.
+09.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-08.
+09.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-108.
+109.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-108.
+109.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 108.
+(Font)              <12> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 108.
+(Font)              <8> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 108.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 108
+(Font)              <6> on input line 109.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 109
 .
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -604,7 +604,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 108
+LaTeX Font Info:    Trying to load font information for U+msb on input line 109
 .
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -614,83 +614,90 @@ fg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-12.
+13.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 136.
+               Default added (so using `tbp') on input line 137.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 137.
+(Font)              <10> on input line 138.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 137.
+(Font)              <7> on input line 138.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 137.
+(Font)              <5> on input line 138.
 [1
 
 {C:/Users/dbry1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 167.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 176.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 171.
-
-Underfull \vbox (badness 2088) detected at line 247
- []
-
-[2]
-<The Relationship between MPG and Weight of Vehicle.png, id=33, 578.16pt x 578.
-16pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 180.
+[2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
+298.
+("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.fd"
+File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<The Relationship between MPG and Weight of Vehicle.png, id=47, 578.16pt x 433.
+62pt>
 File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
  png)
 <use The Relationship between MPG and Weight of Vehicle.png>
 Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
-  used on input line 282.
-(pdftex.def)             Requested size: 500.48087pt x 500.48087pt.
-[3]
-<Normal Interval Check.png, id=41, 501.875pt x 301.125pt>
+  used on input line 310.
+(pdftex.def)             Requested size: 500.48087pt x 375.36066pt.
+<Normal Interval Check.png, id=48, 501.875pt x 200.75pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
-Package pdftex.def Info: Normal Interval Check.png  used on input line 287.
-(pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
+Package pdftex.def Info: Normal Interval Check.png  used on input line 315.
+(pdftex.def)             Requested size: 500.51064pt x 200.20424pt.
 [4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
-<Fitted vs. residuals Plot.png, id=48, 501.875pt x 301.125pt>
+<Fitted vs. residuals Plot.png, id=57, 501.875pt x 301.125pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
-Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 292.
+Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 320.
 
 (pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
-
-Overfull \hbox (493.56343pt too wide) in paragraph at lines 296--296
+[5 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>]
+Overfull \hbox (493.56343pt too wide) in paragraph at lines 349--349
 [][]\T1/lmr/bx/n/14.4 Bootstrap ===============================================
 ========================== 
  []
 
-[5 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>] [6] (Projec
-t1.aux) ) 
+[6] (Project1.aux) ) 
 Here is how much of TeX's memory you used:
- 13417 strings out of 480224
- 201309 string characters out of 2878167
- 533726 words of memory out of 3000000
- 29689 multiletter control sequences out of 15000+200000
- 587316 words of font info for 87 fonts, out of 3000000 for 9000
+ 13472 strings out of 480224
+ 202239 string characters out of 2878167
+ 533891 words of memory out of 3000000
+ 29725 multiletter control sequences out of 15000+200000
+ 587953 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,77p,965b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-ec.enc}<C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/l
-m/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/lm/lmr10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmr12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/lm/lmr17.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmri10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/lm/lmtk10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/dbry1/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Project1.pdf (6 pages, 342940 bytes).
+ 71i,9n,77p,965b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-ts1.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-ec.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-mathsy.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathit.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dbry1/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/dbry1/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/dbry1/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbry1/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/dbry1/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/dbry1/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/dbry1/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/dbry1/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/db
+ry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/User
+s/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
+Output written on Project1.pdf (6 pages, 370292 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 12432 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 12440 words of extra memory for PDF output out of 14400 (max. 10000000)
 
