@@ -1,0 +1,197 @@
+---
+title: "Project 1"
+date: "12/13/2020"
+geometry: "left = 2cm, right = 2cm, top = 2cm, bottom = 2cm"
+classoption: Portrait
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+  
+---
+
+```{r setup, include=FALSE}
+# Daniel Carpenter
+
+library(s20x)
+library(tidyverse)
+```
+
+
+# Introduction 
+
+## TODO
+\pagebreak
+  
+  
+# Data
+
+## TODO
+\pagebreak
+
+```{r include = FALSE, echo=TRUE}
+  ## Theme
+    DBC_Theme <- theme(
+      # All Font  Size
+      text                = element_text(size  = 11,
+                                         colour  = "grey25"),
+      
+      # Panel
+      panel.background    = element_rect(fill    = "white", 
+                                         colour  = "white"),
+      panel.border        = element_rect(fill    = NA,
+                                         color   = "grey90"),
+      panel.grid.major.x  = element_line(linetype = "solid",
+                                         color   = "grey95",
+                                         size    = 0.2),
+      panel.grid.major.y  = element_line(linetype = "solid",
+                                         color   = "grey90", 
+                                         size    = 0.2),
+      
+      # Main Title
+      plot.title          = element_text(size    = 16,
+                                         hjust   = 0),
+      plot.subtitle       = element_text(size    = 13,
+                                         hjust   = 0),
+      
+      # Axis Titles
+      axis.text           = element_text(size    = 11),
+      axis.title          = element_text(size    = 12),
+      
+      legend.background   = element_rect(fill    = "grey97",
+                                         colour  = "grey94",
+                                         size    = .40),
+      legend.text         = element_text(colour  = "grey15"),
+      legend.position     = "bottom",
+      
+      # Margin
+      plot.margin         = margin(t = 15, 
+                                   b = 30, 
+                                   r = 30, 
+                                   l = 30, 
+                                   unit = "pt"))
+    theme_set(DBC_Theme)
+```
+
+# Theory Used
+
+## TODO
+  
+
+# Application of SLR to the mtcars data set
+
+## Making the SLR function: `myslr`
+  
+```{r include = TRUE, echo=TRUE}
+  myslr <- function(data,
+                      y, yName, 
+                      x, xName, 
+                      sizeVar, sizeVarName, 
+                      colVar, colVarName,
+                      titleVar) 
+  {
+    # Open Window to View Plot
+      windows(title = "Linear Estimation Graph for Y on X")
+    
+    # Create Plot
+      plot <- ggplot(
+                    # Data
+                      data, 
+                    
+                    # Aesthetic Mapping
+                      aes(x, y, 
+                         color  = colVar,
+                         size   = sizeVar)) +
+        
+                    # Add Scatter Layer
+                      geom_point(alpha = 2/5) +  
+                    
+                    # Add Linear Estimation
+                      geom_smooth(method  = "lm", 
+                                  formula = y ~ x,
+                                  color   = "grey35") +
+                    
+                    # Titles
+                      labs(title     = titleVar,
+                           subtitle  = " ",
+                           x         = xName,
+                           y         = yName,
+                           col       = colVarName,
+                           size      = sizeVarName) +
+                    
+                    # Theme
+                      theme_get()
+            
+    # show Plot
+      print(plot)
+      
+    # Save plot
+      ggsave(filename  = paste0(titleVar, ".png"),
+             plot      = plot,
+             height    = 8,
+             width     = 8)
+     
+      
+    # Linear Estimation and Summary Output 
+      
+      ## Linear Regression (returned)
+        y.lm <- lm(y ~ x)
+        
+      ## Linear Regression Output (void)
+        summary(y.lm) 
+      
+      ## Confidence Interval at 95% (void)
+        ciReg(y.lm)
+        
+      ## Check assumptions and save .png
+        png("Normal Interval Check.png", height = 300, width = 500)
+        normcheck(y.lm) 
+        dev.off()
+        
+      ## Check residuals and save .png
+        png("Fitted vs. residuals Plot.png", height = 300, width = 500)
+        plot(y.lm, which = 1) 
+        dev.off()
+        
+      ## Linear Estimation
+        return(y.lm)
+  }
+```
+
+## Invoke`myslr` function using the `mtcars` dataset
+
+```{r include = TRUE, echo = TRUE}
+  # Call Get Linear Estimation for y on x
+    myslr(data = mtcars,
+            mtcars$mpg,   "Miles per Gallon", 
+            mtcars$wt,    "Weight of Vehicle",
+            mtcars$disp,  "Displacement (cub. inches)", 
+            mtcars$cyl,   "Number of Cylinders",
+            "The Relationship between MPG and Weight of Vehicle")
+
+```
+
+## Plot Output
+![]("The Relationship between MPG and Weight of Vehicle.png")
+
+## Normal Interval Check
+![]("Normal Interval Check.png")
+
+
+## Fitted vs. Residuals
+![]("Fitted vs. residuals Plot.png")
+  
+  
+  
+    
+# Bootstrap =========================================================================
+
+## Make Bootstrap function ----------------------------------------------------------
+
+## Bootstrap Plots ------------------------------------------------------------------
+
+## Commandline ----------------------------------------------------------------------
+
+## File -----------------------------------------------------------------------------
+
+## Invoke function on mtcars dataset ------------------------------------------------

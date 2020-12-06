@@ -55,53 +55,77 @@ library(tidyverse)
   
   ## Create unique plot function ----------------------------------------------------
   
-    xName <- names(x)
-
-    plotFun <- function(y, yName, 
+    plotFun <- function(data,
+                        y, yName, 
                         x, xName, 
                         sizeVar, sizeVarName, 
                         colVar, colVarName,
                         titleVar) 
     {
-      plot <- ggplot(
-                    # Data
-                      mtcars, 
-                    
-                    # Aesthetic Mapping
-                      aes(x, y, 
-                         color  = colVar,
-                         size   = sizeVar)) +
+      # Open Window to View Plot
+        windows(title = "Linear Estimation Graph for Y on X")
+      
+      # Create Plot
+        plot <- ggplot(
+                      # Data
+                        data, 
+                      
+                      # Aesthetic Mapping
+                        aes(x, y, 
+                           color  = colVar,
+                           size   = sizeVar)) +
+          
+                      # Add Scatter Layer
+                        geom_point(alpha = 2/5) +  
+                      
+                      # Add Linear Estimation
+                        geom_smooth(method  = "lm", 
+                                    formula = y ~ x,
+                                    color   = "grey35") +
+                      
+                      # Titles
+                        labs(title     = titleVar,
+                             subtitle  = " ",
+                             x         = xName,
+                             y         = yName,
+                             col       = colVarName,
+                             size      = sizeVarName) +
+                      
+                      # Theme
+                        theme_get()
+              
+      # show Plot
+        print(plot)
         
-                    # Add Scatter Layer
-                      geom_point(alpha = 2/5) +  
-                    
-                    # Add Linear Estimation
-                      geom_smooth(method  = "lm", 
-                                  formula = y ~ x,
-                                  color   = "grey35") +
-                    
-                    # Titles
-                      labs(title     = titleVar,
-                           subtitle  = " ",
-                           x         = xName,
-                           y         = yName,
-                           col       = colVarName,
-                           size      = sizeVarName) +
-                    
-                    # Theme
-                      theme_get()
+      # Save plot
+        ggsave(filename  = paste0(titleVar, ".pdf"),
+               plot      = plot,
+               height    = 8.5,
+               width     = 11)
+       
         
+      # Linear Estimation and Summary Output 
         
-      return(plot)
+        ## Linear Regression (returned)
+          y.lm <- lm(y ~ x)
+          
+        ## Linear Regression Output (void)
+          summary(y.lm) 
+        
+        ## Confidence Interval at 95% (void)
+          ciReg(y.lm)
+          
+        ## Check assumptions
+          windows(title = "Normal Interval Check")
+          normcheck(y.lm) 
+          windows(title = "Fitted vs. residuals Plot")
+          plot(y.lm, which = 1) 
+          
+        ## Linear Estimation
+          return(y.lm)
     }
   
-  ## Call plot function
-    plotFun(mtcars$mpg,   "Miles per Gallon", 
-            mtcars$wt,    "Weight of Vehicle",
-            mtcars$disp,  "Displacement (cub. inches)", 
-            mtcars$cyl,   "Number of Cylinders",
-            "The Relationship between MPG and Weight of Vehicle")
-    
+
 
 # Theory Used =======================================================================
 
@@ -111,18 +135,16 @@ library(tidyverse)
 
 ## Make SLR function ----------------------------------------------------------------
   
-  myslr <- function(y, x)
-  {
-    return(lm(y ~ x))
-  }
+## Invoke SLR function --------------------------------------------------------------
 
-## Invoke a function ----------------------------------------------------------------
-
-  
-  # Call function on x and y
-  
-    y.lm <- myslr(mtcars$mpg, mtcars$wt)
-  
+  # Call Get Linear Estimation for y on x
+    plotFun(data = mtcars,
+            mtcars$mpg,   "Miles per Gallon", 
+            mtcars$wt,    "Weight of Vehicle",
+            mtcars$disp,  "Displacement (cub. inches)", 
+            mtcars$cyl,   "Number of Cylinders",
+            "The Relationship between MPG and Weight of Vehicle")
+    
 # Bootstrap =========================================================================
 
 ## Make Bootstrap function ----------------------------------------------------------
