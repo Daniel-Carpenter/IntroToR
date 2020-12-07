@@ -11,9 +11,10 @@ output:
   
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 library(s20x)
 library(tidyverse)
+library(formattable)
 ```
 
 
@@ -59,7 +60,7 @@ carb                                       & Number of carburetors              
 
 \pagebreak
 
-```{r include = FALSE, echo=TRUE}
+```{r include = FALSE, echo = TRUE}
   ## Theme
     DBC_Theme <- theme(
       # All Font  Size
@@ -119,7 +120,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
 
 ## Making the SLR function: `myslr`
   
-```{r include = TRUE, echo=TRUE}
+```{r include = TRUE, echo = TRUE}
   myslr <- function(data,
                       y, yName, 
                       x, xName, 
@@ -183,12 +184,12 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
         write.csv(CI, file = "Confidence Intervals.csv")
         
       ## Check assumptions and save .png
-        png("Normal Interval Check.png", height = 200, width = 500)
+        png("Normal Interval Check.png", height = 150, width = 500)
         normcheck(y.lm) 
         dev.off()
         
       ## Check residuals and save .png
-        png("Fitted vs. residuals Plot.png", height = 300, width = 500)
+        png("Fitted vs. residuals Plot.png", height = 250, width = 500)
         plot(y.lm, which = 1) 
         dev.off()
         
@@ -219,11 +220,8 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
 ## Normal Interval Check
 ![]("Normal Interval Check.png")
 
-
 ## Fitted vs. Residuals
 ![]("Fitted vs. residuals Plot.png")
-
-\pagebreak
 
 ## Interpretation of Model
 
@@ -245,16 +243,126 @@ R-squared value, we may not assume that solely weight accounts for the full
 76.28% variation in miles per gallon. This variable could easily be correlated 
 with another relevant variable, thus confounding the simple linear regression.
   
+\pagebreak  
+
+# Bootstrap
+
+## Make Bootstrap function 
+
+```{r include = TRUE, echo = TRUE}
+myboot <- function(iter   = 10000, # num iterations
+                   x,              # dataset
+                   fun    = "var", #
+                   alpha  = 0.05,  # 95% confidence
+                   cx     = 1.5,
+                   ...
+                   )
+{
+  # Get Sample size
+    n = length(x)
   
+  # Create Sample
+    y = sample(x, 
+               n * iter,
+               replace = TRUE)
     
-# Bootstrap =========================================================================
+  # Form Matrix from sample
+    rs.mat = matrix(y, # data from sampling
+                    nrow  = n,
+                    ncol  = iter,
+                    byrow = TRUE) # sort by row
 
-## Make Bootstrap function ----------------------------------------------------------
+  # Variance
+    xstat = apply(rs.mat, 2, fun) # vector containing iter vals
+    
+  # Form confidence interval
+    ci = quantile(xstat,
+                  c(alpha / 2,
+                    1 - alpha / 2)
+                    )
+    
+  # Send summary Statistics to the console
+    
+    ## Confidence Interval Out
+      print("____________________________________________")
+      print(paste0("Confidence Interval at Alpha = ", alpha))
+      print("--------------------------------------------")
+      print(ci)
+    
+      
+    ## Form matrix of sample stats    
+    statNames <- c("Mean:", "Median:", "Standard Deviation:")
+    statVals  <- c(comma(mean  (xstat), digits = 2),
+                   comma(median(xstat), digits = 2),
+                   comma(sd    (xstat), digits = 2)
+                   )
+    summaryStats <- matrix(data = c(statNames,
+                                    statVals),
+                           nrow = 3,
+                           ncol = 2)
+    
+    ##  Sample Stats Out
+    print("____________________________________________")
+    print("Summary Statistics from Bootstrap Sampling:")
+    print("--------------------------------------------")
+    print(summaryStats)
+  
+  # Create a histogram from Bootstrap sampling
+    para <-  hist(
+                  xstat,
+                  freq = FALSE, # along numberline, not freq
+                  las  = 1,
+                  main = paste0("Histogram of Bootstrap Sample Statistics",
+                                "\n",
+                                "Alpha = ", alpha, "; ",
+                                "Tiers = ", comma(iter, digits = 0)),
+                  col  = alpha("skyblue3", 2/5),
+                  ...)
+    
+    # Save Bootstrap plot
+      png("Bootstrap Estimate Plot.png", height = 150, width = 500)
+      para
+      dev.off()
+    
+    # write a file to current directory with sample data
+      write.csv(xstat, "Bootstrap Estimations.csv")
+    
+    return(xstat)
+}
 
-## Bootstrap Plots ------------------------------------------------------------------
+```
 
-## Command line ----------------------------------------------------------------------
 
-## File -----------------------------------------------------------------------------
+## Invoke `myboot` function
 
-## Invoke function on mtcars data set ------------------------------------------------
+### Get data from `mtcars`, while only containing 4 cylinder cars
+
+```{r include = TRUE, echo = TRUE}
+  # Get dataset from mtcars
+  df <- mtcars %>%
+    
+    ## filter to only 4-cylinder cars
+      filter(cyl == 4) %>%
+    
+    ## Only show vars of interest
+      select(mpg)
+  
+    ## Store as vector
+      df.vector <- df$mpg
+```
+
+\pagebreak
+
+### Call `myboot` function
+
+```{r include = TRUE, echo = TRUE}
+    varianceData <- myboot(iter  = 10000,
+                           x     = df.vector,
+                           alpha = 0.05,
+                           cx    = 1.5,
+                           xlab  = "Variance of MPG")
+```
+
+## Bootstrap Plots
+
+![h!]("Bootstrap Estimate Plot.png")

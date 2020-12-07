@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  6 DEC 2020 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 12:14
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -649,55 +649,69 @@ File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
 Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
   used on input line 310.
 (pdftex.def)             Requested size: 500.48087pt x 375.36066pt.
-<Normal Interval Check.png, id=48, 501.875pt x 200.75pt>
+<Normal Interval Check.png, id=48, 501.875pt x 150.5625pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
 Package pdftex.def Info: Normal Interval Check.png  used on input line 315.
-(pdftex.def)             Requested size: 500.51064pt x 200.20424pt.
+(pdftex.def)             Requested size: 500.51064pt x 150.15317pt.
 [4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
-<Fitted vs. residuals Plot.png, id=57, 501.875pt x 301.125pt>
+<Fitted vs. residuals Plot.png, id=57, 501.875pt x 250.9375pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
 Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 320.
 
-(pdftex.def)             Requested size: 500.51064pt x 300.30637pt.
+(pdftex.def)             Requested size: 500.51064pt x 250.25531pt.
 [5 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>]
-Overfull \hbox (493.56343pt too wide) in paragraph at lines 349--349
-[][]\T1/lmr/bx/n/14.4 Bootstrap ===============================================
-========================== 
+Underfull \vbox (badness 10000) detected at line 435
  []
 
-[6] (Project1.aux) ) 
+[6] [7]
+<Project1_files/figure-latex/unnamed-chunk-6-1.pdf, id=88, 469.755pt x 325.215p
+t>
+File: Project1_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
+
+<use Project1_files/figure-latex/unnamed-chunk-6-1.pdf>
+Package pdftex.def Info: Project1_files/figure-latex/unnamed-chunk-6-1.pdf  use
+d on input line 493.
+(pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
+<Bootstrap Estimate Plot.png, id=89, 501.875pt x 150.5625pt>
+File: Bootstrap Estimate Plot.png Graphic file (type png)
+<use Bootstrap Estimate Plot.png>
+Package pdftex.def Info: Bootstrap Estimate Plot.png  used on input line 500.
+(pdftex.def)             Requested size: 500.51064pt x 150.15317pt.
+[8 <./Project1_files/figure-latex/unnamed-chunk-6-1.pdf>] [9 <./Bootstrap Estim
+ate Plot.png>] (Project1.aux) ) 
 Here is how much of TeX's memory you used:
- 13472 strings out of 480224
- 202239 string characters out of 2878167
- 533891 words of memory out of 3000000
- 29725 multiletter control sequences out of 15000+200000
- 587953 words of font info for 92 fonts, out of 3000000 for 9000
+ 13492 strings out of 480224
+ 202912 string characters out of 2878167
+ 533672 words of memory out of 3000000
+ 29736 multiletter control sequences out of 15000+200000
+ 588036 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,9n,77p,965b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-ts1.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-ec.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-mathsy.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/font
-s/enc/dvips/lm/lm-mathit.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dbry1/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/dbry1/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/dbry1/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbry1/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/dbry1/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/dbry1/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/dbry1/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/dbry1/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Users/db
-ry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/User
-s/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Project1.pdf (6 pages, 370292 bytes).
+ 71i,9n,77p,773b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.
+9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2
+.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2
+.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/dbry1/AppData/Local/Programs/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/dbry1/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dbry1/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/dbry1/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/dbry1/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbry1/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/dbry1
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/dbr
+y1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users
+/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/U
+sers/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><
+C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.p
+fb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt
+i10.pfb>
+Output written on Project1.pdf (9 pages, 384686 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 12440 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 12450 words of extra memory for PDF output out of 14400 (max. 10000000)
 

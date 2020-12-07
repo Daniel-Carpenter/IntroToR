@@ -73,6 +73,11 @@ myboot <- function(iter   = 10000, # num iterations
                   col  = alpha("skyblue3", 2/5),
                   ...)
     
+    # Save Bootstrap plot
+      png("Bootstrap Estimate Plot")
+      para
+      dev.off()
+    
     # write a file to current directory with sample data
       write.csv(xstat, "Bootsrap Estimations.csv")
     
