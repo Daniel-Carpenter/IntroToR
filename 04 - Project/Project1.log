@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 12:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 12:47
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -684,7 +684,7 @@ Plot.png>] (Project1.aux) )
 Here is how much of TeX's memory you used:
  13485 strings out of 480224
  202900 string characters out of 2878167
- 533695 words of memory out of 3000000
+ 533711 words of memory out of 3000000
  29733 multiletter control sequences out of 15000+200000
  588036 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -709,7 +709,7 @@ y1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users
 sers/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><
 C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.
 pfb>
-Output written on Project1.pdf (8 pages, 384112 bytes).
+Output written on Project1.pdf (8 pages, 384474 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
