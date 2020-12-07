@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 15:42
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -641,20 +641,18 @@ LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<The Relationship between MPG and Weight of Vehicle.png, id=47, 578.16pt x 433.
-62pt>
-File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
- png)
-<use The Relationship between MPG and Weight of Vehicle.png>
-Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
-  used on input line 313.
+<Simple Linear Regression Plot.png, id=47, 578.16pt x 433.62pt>
+File: Simple Linear Regression Plot.png Graphic file (type png)
+<use Simple Linear Regression Plot.png>
+Package pdftex.def Info: Simple Linear Regression Plot.png  used on input line 
+313.
 (pdftex.def)             Requested size: 500.48087pt x 375.36066pt.
 <Normal Interval Check.png, id=48, 501.875pt x 150.5625pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
 Package pdftex.def Info: Normal Interval Check.png  used on input line 318.
 (pdftex.def)             Requested size: 500.51064pt x 150.15317pt.
-[4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
+[4 <./Simple Linear Regression Plot.png (PNG copy)>]
 <Fitted vs. residuals Plot.png, id=57, 501.875pt x 250.9375pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
@@ -683,7 +681,7 @@ Package pdftex.def Info: Bootstrap Estimate Plot.png  used on input line 501.
 Plot.png>] (Project1.aux) ) 
 Here is how much of TeX's memory you used:
  13485 strings out of 480224
- 202900 string characters out of 2878167
+ 202774 string characters out of 2878167
  533711 words of memory out of 3000000
  29733 multiletter control sequences out of 15000+200000
  588036 words of font info for 93 fonts, out of 3000000 for 9000
@@ -709,7 +707,7 @@ y1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users
 sers/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><
 C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.
 pfb>
-Output written on Project1.pdf (8 pages, 384481 bytes).
+Output written on Project1.pdf (8 pages, 379730 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)

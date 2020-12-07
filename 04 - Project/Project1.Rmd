@@ -209,7 +209,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
                   mtcars$wt,    "Weight of Vehicle",
                   mtcars$disp,  "Displacement (cub. inches)", 
                   mtcars$cyl,   "Number of Cylinders",
-                  "The Relationship between MPG and Weight of Vehicle")
+                  "Simple Linear Regression Plot")
 
   # Coefficient list
     coefsList <- y.lm$coefficients
@@ -217,7 +217,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
 ```
 
 ## Plot Output
-![]("The Relationship between MPG and Weight of Vehicle.png")
+![]("Simple Linear Regression Plot.png")
 
 ## Normal Interval Check
 ![]("Normal Interval Check.png")
