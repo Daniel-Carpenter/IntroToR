@@ -26,7 +26,7 @@ myboot <- function(iter   = 10000, # num iterations
                     ncol  = iter,
                     byrow = TRUE) # sort by row
 
-  # xstat
+  # Variance
     xstat = apply(rs.mat, 2, fun) # vector containing iter vals
     
   # Form confidence interval
@@ -34,6 +34,32 @@ myboot <- function(iter   = 10000, # num iterations
                   c(alpha / 2,
                     1 - alpha / 2)
                     )
+    
+  # Send summary Statistics to the console
+    
+    ## Confidence Interval Out
+      print("____________________________________________")
+      print(paste0("Confidence Interval at Alpha = ", alpha))
+      print("--------------------------------------------")
+      print(ci)
+    
+      
+    ## Form matrix of sample stats    
+    statNames <- c("Mean:", "Median:", "Standard Deviation:")
+    statVals  <- c(comma(mean  (varianceData), digits = 2),
+                   comma(median(varianceData), digits = 2),
+                   comma(sd    (varianceData), digits = 2)
+                   )
+    summaryStats <- matrix(data = c(statNames,
+                                    statVals),
+                           nrow = 3,
+                           ncol = 2)
+    
+    ##  Sample Stats Out
+    print("____________________________________________")
+    print("Summary Statistics from Bootstrap Samping:")
+    print("--------------------------------------------")
+    print(summaryStats)
   
   # Create a histogram from Bootstrap sampling
     para <-  hist(
@@ -46,21 +72,33 @@ myboot <- function(iter   = 10000, # num iterations
                                 "Iters = ", comma(iter, digits = 0)),
                   col  = alpha("skyblue3", 2/5),
                   ...)
+    
+    # write a file to current directory with sample data
+      write.csv(xstat, "Bootsrap Estimations.csv")
+    
+    return(xstat)
 }
 
 # Invoke `myboot` function
 
-  # Random sample
-    set.seed(39)
-    sam = rnorm(25, mean  = 25, sd = 10)
+  # Get dataset from mtcars
+  df <- mtcars %>%
     
-  # Call function
-    myboot(iter  = 10000,
-           x     = sam,
-           alpha = 0.05,
-           cx    = 1.5,
-           xlab  = "Variance")
+    ## filter to only 4-cylinder carss
+      filter(cyl == 4) %>%
     
+    ## Only show vars of interest
+      select(mpg)
+  
+  df.vector <- df$mpg
+  
+  # Call function and store data in list
+    varianceData <- myboot(iter  = 10000,
+                           x     = df.vector,
+                           alpha = 0.05,
+                           cx    = 1.5,
+                           xlab  = "Variance of MPG")
+                  
 
 
     
