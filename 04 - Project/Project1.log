@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.12.6)  7 DEC 2020 12:41
 entering extended mode
 **./Project1.tex
 (Project1.tex
@@ -620,24 +620,24 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 137.
+               Default added (so using `tbp') on input line 140.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
+(Font)              <10> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 138.
+(Font)              <7> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 138.
+(Font)              <5> on input line 141.
 [1
 
 {C:/Users/dbry1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 176.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 179.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 180.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 183.
 [2] [3]
 LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 
-298.
+301.
 ("C:\Users\dbry1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmtt.fd"
 File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -647,22 +647,22 @@ File: The Relationship between MPG and Weight of Vehicle.png Graphic file (type
  png)
 <use The Relationship between MPG and Weight of Vehicle.png>
 Package pdftex.def Info: The Relationship between MPG and Weight of Vehicle.png
-  used on input line 310.
+  used on input line 313.
 (pdftex.def)             Requested size: 500.48087pt x 375.36066pt.
 <Normal Interval Check.png, id=48, 501.875pt x 150.5625pt>
 File: Normal Interval Check.png Graphic file (type png)
 <use Normal Interval Check.png>
-Package pdftex.def Info: Normal Interval Check.png  used on input line 315.
+Package pdftex.def Info: Normal Interval Check.png  used on input line 318.
 (pdftex.def)             Requested size: 500.51064pt x 150.15317pt.
 [4 <./The Relationship between MPG and Weight of Vehicle.png (PNG copy)>]
 <Fitted vs. residuals Plot.png, id=57, 501.875pt x 250.9375pt>
 File: Fitted vs. residuals Plot.png Graphic file (type png)
 <use Fitted vs. residuals Plot.png>
-Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 320.
+Package pdftex.def Info: Fitted vs. residuals Plot.png  used on input line 323.
 
 (pdftex.def)             Requested size: 500.51064pt x 250.25531pt.
 [5 <./Normal Interval Check.png> <./Fitted vs. residuals Plot.png>]
-Underfull \vbox (badness 10000) detected at line 435
+Underfull \vbox (badness 10000) detected at line 438
  []
 
 [6] [7]
@@ -672,46 +672,46 @@ File: Project1_files/figure-latex/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 
 <use Project1_files/figure-latex/unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: Project1_files/figure-latex/unnamed-chunk-6-1.pdf  use
-d on input line 493.
+d on input line 497.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
 <Bootstrap Estimate Plot.png, id=89, 501.875pt x 150.5625pt>
 File: Bootstrap Estimate Plot.png Graphic file (type png)
 <use Bootstrap Estimate Plot.png>
-Package pdftex.def Info: Bootstrap Estimate Plot.png  used on input line 500.
-(pdftex.def)             Requested size: 500.51064pt x 150.15317pt.
-[8 <./Project1_files/figure-latex/unnamed-chunk-6-1.pdf>] [9 <./Bootstrap Estim
-ate Plot.png>] (Project1.aux) ) 
+Package pdftex.def Info: Bootstrap Estimate Plot.png  used on input line 501.
+(pdftex.def)             Requested size: 250.24765pt x 75.07428pt.
+[8 <./Project1_files/figure-latex/unnamed-chunk-6-1.pdf> <./Bootstrap Estimate 
+Plot.png>] (Project1.aux) ) 
 Here is how much of TeX's memory you used:
- 13492 strings out of 480224
- 202912 string characters out of 2878167
- 533672 words of memory out of 3000000
- 29736 multiletter control sequences out of 15000+200000
+ 13485 strings out of 480224
+ 202900 string characters out of 2878167
+ 533695 words of memory out of 3000000
+ 29733 multiletter control sequences out of 15000+200000
  588036 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,77p,773b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.
-9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2
-.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2
-.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKT
-eX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/dbry1/AppData/Local/Programs/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/dbry1/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dbry1/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/dbry1/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/dbry1/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbry1/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/dbry1
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/dbr
-y1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users
-/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/U
-sers/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><
-C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.p
-fb><C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt
-i10.pfb>
-Output written on Project1.pdf (9 pages, 384686 bytes).
+{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/lm/lm-ec.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2
+.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/dbry1/AppData/Local/Programs/MiKT
+eX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Users/dbry1/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/dbry1/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dbry1/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/dbry1/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/dbry1/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/dbry1/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/dbry1/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/dbry1/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/dbry1/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/dbr
+y1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users
+/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/U
+sers/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><
+C:/Users/dbry1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtti10.
+pfb>
+Output written on Project1.pdf (8 pages, 384112 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 12450 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 12442 words of extra memory for PDF output out of 14400 (max. 10000000)
 

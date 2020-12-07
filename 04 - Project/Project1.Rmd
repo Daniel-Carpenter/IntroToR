@@ -22,11 +22,13 @@ library(formattable)
 
 Within the `Project1.Rmd` file and this `Project1.pdf` file, the user can create a
 linear regression between two variables; also, the user can use a bootstrapping 
-function. Within the function `myslr`, the user estimates the relationship between 
+function. Within the function `myslr()`, the user estimates the relationship between 
 two variables, as well show the confidence in those estimates.
 
-Within the bootstrapping function, the user can use a limited sample to infer 
-information about a population.
+Within the bootstrapping function `myboot()`, the user can use a limited sample to infer 
+information about a population's variance. The function will output a confidence interval,
+some summary statistics, and a histogram showing the possible outcomes of a given 
+variable.
  
   
 # Data
@@ -35,7 +37,7 @@ Within the examples in this file, the `mtcars` data set provides meaningful info
 when estimating linear regressions and bootstrapping. This data set includes information
 from the 1974 \textit{Motor Trends} US magazine, and "comprises fuel consumption,"
 as well as "10 aspects" of each of the thirty-two cars in the data set. These "aspects"
-resemble the variables within the data.
+resemble the variables within the data, such as miles per gallon.
 
 When considering the variables in the `mtcars` data set, it is useful to understand the
 types of data, which help best determine how to analyze the data. Please see the variables,
@@ -118,7 +120,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
 
 # Application of SLR to the mtcars data set
 
-## Making the SLR function: `myslr`
+## Making the SLR function: `myslr()`
   
 ```{r include = TRUE, echo = TRUE}
   myslr <- function(data,
@@ -198,7 +200,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
   }
 ```
 
-## Invoke`myslr` function using the `mtcars` data set
+## Invoke `myslr()` function using the `mtcars` data set
 
 ```{r include = TRUE, echo = TRUE}
   # Call Get Linear Estimation for y on x
@@ -236,7 +238,7 @@ Alternatively, the model estimates the upper bound to be a 4.20 decrease in mile
 per gallon when increasing the weight of a car by 1,000 pounds.
 
 
-## Validity of the model
+## Validity of the Model
 
 Although the model estimates a narrow confidence interval with a relatively high 
 R-squared value, we may not assume that solely weight accounts for the full 
@@ -247,7 +249,7 @@ with another relevant variable, thus confounding the simple linear regression.
 
 # Bootstrap
 
-## Make Bootstrap function 
+## Make Bootstrap Function 
 
 ```{r include = TRUE, echo = TRUE}
 myboot <- function(iter   = 10000, # num iterations
@@ -315,7 +317,7 @@ myboot <- function(iter   = 10000, # num iterations
                   main = paste0("Histogram of Bootstrap Sample Statistics",
                                 "\n",
                                 "Alpha = ", alpha, "; ",
-                                "Tiers = ", comma(iter, digits = 0)),
+                                "Iters = ", comma(iter, digits = 0)),
                   col  = alpha("skyblue3", 2/5),
                   ...)
     
@@ -333,7 +335,7 @@ myboot <- function(iter   = 10000, # num iterations
 ```
 
 
-## Invoke `myboot` function
+## Invoke `myboot()` Function
 
 ### Get data from `mtcars`, while only containing 4 cylinder cars
 
@@ -353,7 +355,7 @@ myboot <- function(iter   = 10000, # num iterations
 
 \pagebreak
 
-### Call `myboot` function
+### Call `myboot()` Function and Store Estimations in List
 
 ```{r include = TRUE, echo = TRUE}
     varianceData <- myboot(iter  = 10000,
@@ -363,6 +365,8 @@ myboot <- function(iter   = 10000, # num iterations
                            xlab  = "Variance of MPG")
 ```
 
-## Bootstrap Plots
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width = 0.5\textwidth]{"Bootstrap Estimate Plot.png"}
+\end{figure}
 
-![h!]("Bootstrap Estimate Plot.png")
