@@ -166,7 +166,7 @@ Y = \beta_{0} + \beta_{i} * X_{i} + \epsilon_{i}
       print(plot)
       
     # Save plot
-      ggsave(filename  = paste0(titleVar, ".png"),
+      ggsave(filename  = paste0("Simple Linear Regression Plot.png"),
              plot      = plot,
              height    = 6,
              width     = 8)
