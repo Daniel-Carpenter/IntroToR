@@ -1,14 +1,16 @@
 ---
-title: "Project 1"
+title: "Final Project - Intro to R"
 author: "Daniel Carpenter"
 date: "12/13/2020"
-geometry: "left = 2cm, right = 2cm, top = 2cm, bottom = 2cm"
-classoption: Portrait
-output:
-  pdf_document: default
-  word_document: default
-  html_document: default
-  
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 2
+    theme: yeti
+  # github_document:
+  #   toc: yes
+  #   toc_depth: 2
 ---
 
 ```{r setup, include = FALSE}
